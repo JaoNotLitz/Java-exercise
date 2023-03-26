@@ -9,6 +9,7 @@ public class Cronometro {
         Scanner kb = new Scanner(System.in);
         System.out.print("Aperte Enter para começar o cronômetro");
         kb.nextLine();
+        kb.close();
         while (a==1){
             s++;
             System.out.printf("%02d:%02d:%02d", h,m,s);
